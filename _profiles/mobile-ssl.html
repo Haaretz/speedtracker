@@ -25,7 +25,10 @@ interval: 12
 # https://www.npmjs.com/package/webpagetest
 #
 parameters:
-  connectivity: "Cable"
+  connectivity: "custom"
+  bwup: 12000
+  bwdown: 12000
+  latency: 70
   location: "Dulles_MotoG4:Moto G4 - Chrome"
   runs: 3
   firstViewOnly: false
